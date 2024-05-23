@@ -8,6 +8,7 @@ import Publications from './pages/Publications.js';
 import Research from './pages/Research.js';
 import Team from './pages/Team.js';
 import Navbar from './components/Navbar.js';
+import Home from './pages/Home.js';
 
 function App() {
   return (
@@ -21,9 +22,11 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/research" element={<Research />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </Router>
+    
   );
 }
 
