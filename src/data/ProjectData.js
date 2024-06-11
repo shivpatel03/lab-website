@@ -19,7 +19,7 @@ const currentProjects = [
         title: 'Project 3',
         description: 'Description of Project 3',
         photoCredit: 'Photo credits to '
-    }
+    },
 ];
 
 
