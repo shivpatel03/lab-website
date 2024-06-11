@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 bg-gradient-to-r from-cyan-500 to-sky-500">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-semibold">
           <Link to="/">lab-name</Link>

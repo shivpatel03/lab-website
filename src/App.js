@@ -9,22 +9,22 @@ import Research from './pages/Research.js';
 import Team from './pages/Team.js';
 import Navbar from './components/Navbar.js';
 import Home from './pages/Home.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/opportunities" element={<Opportunities />} />
-          <Route path="/outreach" element={<Outreach />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/opportunities" element={<Opportunities />} />
+        <Route path="/outreach" element={<Outreach />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/research" element={<Research />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </Router>
     
   );
