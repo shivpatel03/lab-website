@@ -10,7 +10,7 @@ function Publications(){
             <div className='citations mt-6'>
                 <ul>
                     {publications.slice().reverse().map((publication) => (
-                        <li key={publication.id} className='my-6 text-2xl text-center'>{publication.id}. {publication.citation}</li>
+                        <li className='my-6 text-2xl text-center'>{publication.id}. {publication.citation}</li>
                     ))}
                 </ul>
             </div>
